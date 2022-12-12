@@ -20,9 +20,6 @@ export class MoviesDetailsComponent {
   ngOnInit() {
     this.movies = this.moviesListService?.data?.allMoviesData;
     this.movieId = this.moviesListService?.data?.movieId;
-    console.log(this.moviesListService.data)
-    console.log(this.moviesListService?.data?.allMoviesData );
-    console.log(this.moviesListService?.data?.movieId);
   }
 
 }

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { MovieslistService } from './movies-list/movies-list.service';
 
 
 @Component({
@@ -7,7 +6,5 @@ import { MovieslistService } from './movies-list/movies-list.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {  constructor(private movieslistService: MovieslistService){}
-
-
+export class AppComponent {
 }

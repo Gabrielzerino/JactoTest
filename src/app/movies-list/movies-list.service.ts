@@ -34,7 +34,6 @@ export class MovieslistService {
 
     tranferDataChoosenMovie(movieId:any){
         this._transferData.movieId = movieId;
-        console.log(movieId)
     }
 
 
