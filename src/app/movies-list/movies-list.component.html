@@ -1,0 +1,19 @@
+  <html>
+    <body id="lista-filmes">
+      <h1>Filmes listados</h1>
+      <table class="movies-board">
+        <tr *ngFor="let movie of movies">
+          <td>
+            <div class="movie-card">
+              <h2>{{movie?.original_title}}</h2>
+              <img class="movie-picture" src="http://image.tmdb.org/t/p/w200{{movie.backdrop_path}}" alt="">
+              <button (click)="movieDetails(movie?.id)" routerLink="/details">Detalhes</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </body>
+
+  </html>
+
+<router-outlet></router-outlet>

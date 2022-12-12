@@ -1,0 +1,42 @@
+h1 {
+    font-family: Arial;
+    color: rgb(45, 83, 83);
+}
+
+h2 {
+    font-family: Arial;
+    justify-self: center;
+    font-size: 13px;
+    color: azure;
+}
+
+.movies-board {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    height: 215px;
+    width: 200px;
+    display: inline-grid;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: black;
+}
+
+.movie-picture {
+    margin-bottom: 5px;
+}
+
+button {
+    width: 193px;
+    height: 24px;
+    margin: 5px;
+    background-color: rgb(46, 100, 102);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

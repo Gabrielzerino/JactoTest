@@ -1,0 +1,28 @@
+.details-container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 550px;
+    padding: 10px;
+    background-color: rgb(159, 209, 209);
+}
+
+h1 {
+    font-family: Arial;
+    color: rgb(45, 83, 83);
+}   
+
+button {
+    margin: 5px;
+    background-color: rgb(46, 100, 102);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+p {
+    font-family: Arial;
+    width: 500px;
+}
